@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TableRow>
+  		<TextView 
+  		    android:text="@string/checkbox" 
+  		    android:paddingRight="5dp" /> 
+  		<TextView 
+  		    android:id="@+id/checkbox" /> 
+  	</TableRow>
+    <TableRow>
+  		<TextView 
+  		    android:text="scienNme" 
+  		    android:paddingRight="5dp" /> 
+  		<TextView android:id="@+id/scientistName" /> 
+  	</TableRow>
+  	
+    <TableRow>
+  		<TextView 
+  		    android:text="shipNme" 
+  		    android:paddingRight="5dp" /> 
+  		<TextView android:id="@+id/shipName" /> 
+  	</TableRow>
+  	<TableRow>
+  		<TextView 
+  		    android:text="emailNme" 
+  		    android:paddingRight="5dp" /> 
+  		<TextView android:id="@+id/email" /> 
+  	</TableRow>
+    
+    
+
+</TableLayout>
